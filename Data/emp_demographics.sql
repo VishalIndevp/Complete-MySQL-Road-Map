@@ -1,5 +1,4 @@
--- Emp Salary
-CREATE TABLE emp_salary (
+CREATE TABLE emp_demographics (
     employee_id INT PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
@@ -9,7 +8,7 @@ CREATE TABLE emp_salary (
 );
 
 -- insert --
-INSERT INTO emp_salary (employee_id, first_name, last_name, age, gender, birth_date)
+INSERT INTO emp_demographics (employee_id, first_name, last_name, age, gender, birth_date)
 VALUES
 (1, 'Leslie', 'Knope', 44, 'Female', '1979-09-25'),
 (3, 'Tom', 'Haverford', 36, 'Male', '1987-03-04'),

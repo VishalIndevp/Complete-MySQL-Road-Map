@@ -27,7 +27,7 @@ GROUP BY occupation
 HAVING AVG(salary)>75000;
 
 
-SELECT gender, AVG(age) AS AVG_age  #AS is used to set the name 
+SELECT gender, AVG(age) AS AVG_age
 FROM employee_demographics
 GROUP BY gender
 HAVING AVG_age > 40
